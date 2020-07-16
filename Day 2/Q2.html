@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Question 2</title>
+</head>
+
+<body>
+    <h2>Press F12 to view the console.</h2>
+    <br>
+    <br>
+    <script>
+        // string methods
+        let text = "The quick brown fox jumps over the wall.";
+        
+        console.log(text);
+        
+        console.log("%cTo check the length");
+        console.log(text.length)
+        
+        console.log("%cTo change the case");
+        console.log(text.toLowerCase());
+        console.log(text.toUpperCase());
+        
+        console.log("%cAccessing the index number by character");
+        console.log(text[6]);
+        console.log(text.indexOf('o'));
+        console.log(text.lastIndexOf('o'))
+        
+        console.log("%cAccessing the character by index number");
+        console.log(text.charAt('12'));
+        
+        console.log("%cChecking whether ends with the given string returns true or false");
+        console.log(text.endsWith("ll."));
+        
+        console.log("%c Splitting the text by the given argument and then appending in array");
+        console.log(text.split('e'));
+               
+       // Array methods
+        let arr = ['one', false, 88, ['1','2']];
+        let arr2 = ['ram', 'suraj','ramu'];
+        console.log(arr);
+
+        console.log("%cChecking whether isArray returns true or false");
+        console.log(Array.isArray(arr));
+
+        console.log("%cAccessing the index number by an item in array");
+        console.log(arr.indexOf(32));
+
+        console.log("%c Reversing the array");
+        console.log(arr.reverse())
+
+        console.log("%cAccessing the item of an array by index number");
+        console.log(arr[0]);
+
+        console.log("%cConcating the arr2 in arr");
+        console.log(arr.concat(arr2));
+
+        console.log("%c    From the end");
+        console.log(arr2.pop());
+        console.log(arr2)
+                
+    </script>
+
+</body>
+
+</html>
